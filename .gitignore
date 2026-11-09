@@ -217,6 +217,10 @@ marimo/_lsp/
 __marimo__/
 
 # Streamlit
-.streamlit/secrets.toml
+.streamlit/secrets.toml modified:   requirements.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        main.py         meta_dwh.duckdb tests/
 
 .idea/
