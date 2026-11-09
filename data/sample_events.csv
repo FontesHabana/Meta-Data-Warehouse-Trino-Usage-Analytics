@@ -1,0 +1,9 @@
+query_id,user_id,started_at,ended_at,state,cpu_ms,physical_input_bytes,peak_memory_bytes,spilled_bytes,accessed_tables
+q001,alice,2026-10-01 09:00:00,2026-10-01 09:00:05,FINISHED,1200,5000000,20000000,0,hive.sales.orders
+q002,bob,2026-10-01 09:10:00,2026-10-01 09:10:12,FINISHED,3500,12000000,45000000,1000000,hive.sales.orders|hive.sales.customers
+q003,alice,2026-10-01 10:00:00,2026-10-01 10:00:03,FINISHED,800,2000000,10000000,0,hive.marketing.campaigns
+q004,charlie,2026-10-02 11:00:00,2026-10-02 11:00:20,FINISHED,7000,30000000,90000000,5000000,hive.sales.orders|hive.finance.payments
+q005,bob,2026-10-02 12:00:00,2026-10-02 12:00:04,FINISHED,900,1000000,12000000,0,hive.sales.customers
+q006,diana,2026-10-03 08:30:00,2026-10-03 08:30:08,FINISHED,2400,8000000,30000000,0,hive.finance.payments
+q007,alice,2026-10-03 09:00:00,2026-10-03 09:00:06,FINISHED,1600,4000000,18000000,0,hive.sales.orders
+q008,charlie,2026-10-03 10:00:00,2026-10-03 10:00:15,FAILED,500,0,5000000,0,hive.sales.orders

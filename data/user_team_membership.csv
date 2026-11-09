@@ -1,0 +1,5 @@
+user_id,team_id,valid_from,valid_to
+alice,analytics,2026-01-01,2027-01-01
+bob,analytics,2026-01-01,2027-01-01
+charlie,data-platform,2026-01-01,2027-01-01
+diana,finance,2026-01-01,2027-01-01
